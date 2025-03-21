@@ -1,0 +1,164 @@
+
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.illustrazione1 {
+    height: 600px;
+}
+
+.illustrazione2 {
+    height: 600px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding:20px;
+}
+
+header {
+    background-color: #FBE540;
+    padding: 30px;
+}
+
+h1 {
+    font-size:5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.primo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unico{
+    display: flex;
+    font-size:2em;
+    text-align: left; 
+    justify-content: left;
+ }
+
+h2 {
+    font-size:6em;
+    font-weight: bold;
+}
+
+.testo1, ul, ol {
+    font-size: 2em;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.6;
+}
+
+
+.italiani {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+ol{
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+.testo2,.testo3 {
+    font-size: 2.5em;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 1.6;
+}
+
+.section {
+    padding: 30px 20px;
+}
+
+.purple2, .purple3, .purple4 {
+    background-color: #9E8CF3;
+    color: black;
+}
+
+.yellow {
+    background-color: #FBE540;
+    color: black;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    position:bottom 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer div {
+    background-color: #FBE540;
+    margin-top:60px; 
+}
+
+.ultimo {
+    padding: 30px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.books-bottom {
+    position: relative;
+    height: 650px;
+    display: flex;
+    justify-items: left;
+}
+
+@media(max-width:800px) {
+        .primo {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            margin-top: 25%;
+        }
+        
+        .testo2 {
+            font-size: 1.5em;
+        }
+
+        .testo3{
+            font-size: 1.5em;
+        }
+
+        .unico{
+            font-size: 1.5em;
+        }
+
+        h1{
+            font-size: 3em;
+        }
+
+        .testo1 {
+            font-size: 1.5em;
+        }
+
+        ul, ol {
+            font-size: 1.5em;
+            padding: 0 20px;
+        }
+
+        .illustrazione1{
+            height: 400px;
+        }
+
+        .illustrazione2{
+            height: 400px;
+        }
+    }
+    
